@@ -1,7 +1,9 @@
-var parimpar = 7;
-if (parimpar % 2 == 0) {
-    console.log('O numero e par');
-}
-else {
-    console.log('o numero e impar');
-}
+var ParImpar = function (num) {
+    if (num === void 0) { num = 8; }
+    if (num % 2 == 0) {
+        console.log('Esse número é par :' + num + 'true');
+    }
+    else {
+        console.log('Esse número é impar' + num + 'false');
+    }
+};

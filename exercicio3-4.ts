@@ -1,15 +1,19 @@
-let  parimpar:number =7
 
+let ParImpar = function (num: number= 8):boolean 
+{return num %2==0}
+  
+    
+    if () 
+    {
+        return true
+    }
+    else
+     {
+        return false
+     }
 
-if(parimpar %2==0)
-{
- console.log('O numero e par')
+    
 
-}
-else
-{
-console.log('o numero e impar')
-}
 
 
 
